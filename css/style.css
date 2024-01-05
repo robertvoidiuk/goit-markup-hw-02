@@ -2,6 +2,8 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fff;
+  width: 1440px;
+  height: 3300px;
 }
 
 a {
@@ -102,6 +104,12 @@ nav .logo-web {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
 }
 
 .button-order-service:hover,
@@ -144,6 +152,14 @@ nav .logo-web {
   letter-spacing: 0.32px;
 }
 
+.ul-section-second {
+  display: flex;
+  width: 264px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
 /* Section 3 */
 
 .section-third {
@@ -182,6 +198,15 @@ nav .logo-web {
   background-color: #ffffff;
 }
 
+.ul-section-third {
+  display: inline-flex;
+  padding-bottom: 32px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
 /* Section 4 */
 
 .title-our-portfolio {
@@ -208,6 +233,12 @@ nav .logo-web {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
+}
+
+.ul-section-fourth {
+  width: 360px;
+  padding-bottom: 32px;
+  gap: 32px;
 }
 
 /* Footer */
