@@ -91,6 +91,8 @@ nav .logo .logo-web {
   letter-spacing: 1.12px;
 }
 
+/* The button needs the finish */
+
 .button-order-service {
   border-radius: 4px;
   background: var(--IRIS, #4d5ae5);
@@ -109,4 +111,31 @@ nav .logo .logo-web {
   letter-spacing: 0.64px;
 }
 
-/* The button needs the finish */
+/* Section 2 */
+
+.title-solutions {
+  color: var(--NAVY-BLUE, #2e2f42);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+.title-section-second {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.text-section-second {
+  color: var(--SLATE, #434455);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  width: 264px;
+}
