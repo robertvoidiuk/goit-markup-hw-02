@@ -2,6 +2,8 @@ body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: #2e2f42;
   background-color: #fff;
+  width: 1440px;
+  height: 3300px;
 }
 
 a {
@@ -14,6 +16,8 @@ ol {
   margin: 0;
   padding: 0;
 }
+
+/* Header */
 
 /* Logo */
 
@@ -67,3 +71,42 @@ nav .logo .logo-web {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
+
+/* Main part */
+
+/* Section 1 */
+
+.section-first {
+  background-color: var(--NAVY-BLUE, #2e2f42);
+  width: 1440px;
+  height: 600px;
+}
+
+.genral-title {
+  color: var(--WHITE, #fff);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+}
+
+.button-order-service {
+  border-radius: 4px;
+  background: var(--IRIS, #4d5ae5);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.section-first .button-order-service .order-service {
+  color: var(--WHITE, #fff);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+}
+
+/* The button needs the finish */
