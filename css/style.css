@@ -1,9 +1,7 @@
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
-  color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
   background-color: #fff;
-  width: 1440px;
-  height: 3300px;
 }
 
 a {
@@ -21,22 +19,22 @@ ol {
 
 /* Logo */
 
-nav .logo {
+nav .logo-web .logo {
   color: var(--NAVY-BLUE, #2e2f42);
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.5;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
 
-nav .logo .logo-web {
+nav .logo-web {
   color: var(--IRIS, #4d5ae5);
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.5;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
@@ -60,16 +58,22 @@ nav .logo .logo-web {
 }
 
 .menu-nav-link:hover,
-.menu-nav-link:active {
+.menu-nav-link:active,
+.menu-nav-link:focus {
   color: #404bbf;
 }
 
-.menu-nav-address:hover {
+.menu-nav-address:hover,
+.menu-nav-address:focus {
   color: var(--OCEAN, #404bbf);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
+}
+
+.address {
+  font-style: normal;
 }
 
 /* Main part */
@@ -78,8 +82,6 @@ nav .logo .logo-web {
 
 .section-first {
   background-color: var(--NAVY-BLUE, #2e2f42);
-  width: 1440px;
-  height: 600px;
 }
 
 .genral-title {
@@ -91,16 +93,20 @@ nav .logo .logo-web {
   letter-spacing: 1.12px;
 }
 
-/* The button needs the finish */
-
 .button-order-service {
-  border-radius: 4px;
   background: var(--IRIS, #4d5ae5);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  display: inline-flex;
-  padding: 16px 32px;
-  align-items: flex-start;
-  gap: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.button-order-service:hover,
+.button-order-service:focus {
+  background-color: #404bbf;
 }
 
 .section-first .button-order-service .order-service {
@@ -115,7 +121,6 @@ nav .logo .logo-web {
 
 .title-solutions {
   color: var(--NAVY-BLUE, #2e2f42);
-  text-align: center;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.1;
@@ -137,13 +142,11 @@ nav .logo .logo-web {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  width: 264px;
 }
 
 /* Section 3 */
 
 .section-third {
-  width: 1440px;
   background-color: var(--CLOUD, #f4f4fd);
 }
 
@@ -152,7 +155,7 @@ nav .logo .logo-web {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
@@ -175,6 +178,10 @@ nav .logo .logo-web {
   letter-spacing: 0.32px;
 }
 
+.section-third-list {
+  background-color: #ffffff;
+}
+
 /* Section 4 */
 
 .title-our-portfolio {
@@ -182,7 +189,7 @@ nav .logo .logo-web {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
@@ -207,28 +214,26 @@ nav .logo .logo-web {
 
 .footer {
   background-color: var(--NAVY-BLUE, #2e2f42);
-  width: 1440px;
-  height: 312px;
 }
 
 /* Logo 2 */
 
 .logo-web-second {
   color: var(--IRIS, #4d5ae5);
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
 
 .logo-second {
   color: var(--CLOUD, #f4f4fd);
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
@@ -239,5 +244,4 @@ nav .logo .logo-web {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  width: 264px;
 }
