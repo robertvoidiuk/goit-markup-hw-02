@@ -2,8 +2,6 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fff;
-  width: 1440px;
-  height: 3300px;
 }
 
 a {
@@ -14,7 +12,6 @@ ul,
 ol {
   list-style: none;
   margin: 0;
-  padding: 0;
 }
 
 /* Header */
@@ -88,7 +85,6 @@ nav .logo-web {
 
 .genral-title {
   color: var(--WHITE, #fff);
-  text-align: center;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -97,19 +93,12 @@ nav .logo-web {
 
 .button-order-service {
   background: var(--IRIS, #4d5ae5);
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  display: inline-flex;
-  padding: 16px 32px;
-  align-items: flex-start;
-  gap: 10px;
 }
 
 .button-order-service:hover,
@@ -152,14 +141,6 @@ nav .logo-web {
   letter-spacing: 0.32px;
 }
 
-.ul-section-second {
-  display: flex;
-  width: 264px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 8px;
-}
-
 /* Section 3 */
 
 .section-third {
@@ -168,7 +149,6 @@ nav .logo-web {
 
 .title-our-team {
   color: var(--NAVY-BLUE, #2e2f42);
-  text-align: center;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -178,7 +158,6 @@ nav .logo-web {
 
 .title-section-third {
   color: var(--NAVY-BLUE, #2e2f42);
-  text-align: center;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -187,7 +166,6 @@ nav .logo-web {
 
 .text-section-third {
   color: var(--SLATE, #434455);
-  text-align: center;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -198,20 +176,10 @@ nav .logo-web {
   background-color: #ffffff;
 }
 
-.ul-section-third {
-  display: inline-flex;
-  padding-bottom: 32px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 32px;
-}
-
 /* Section 4 */
 
 .title-our-portfolio {
   color: var(--NAVY-BLUE, #2e2f42);
-  text-align: center;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -233,12 +201,6 @@ nav .logo-web {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
-}
-
-.ul-section-fourth {
-  width: 360px;
-  padding-bottom: 32px;
-  gap: 32px;
 }
 
 /* Footer */
